@@ -4,7 +4,7 @@
 
 Κατά τη διάρκεια αυτού του workshop θα υλοποιήσουμε μία απλή ταμειακή μηχανή ακολουθώντας τα παρακάτω βήματα:
 
-1. Θα χρειαστείτε το API της Soft1. Ανοίχτε το documentation [Soft1 API](http://s1sites.s1cloud.net/s1docs/goapi/docs/index.html#overview). Μπορείτε να το δοκιμάσετε στέλνοντας requests με το εργαλείο Postman. Credentials:
+1. Θα χρειαστείτε το API της Soft1. Ανοίχτε το documentation [Soft1 API](http://s1sites.s1cloud.net/s1docs/goapi/docs/index.html#overview). Μπορείτε να το δοκιμάσετε στέλνοντας requests με το εργαλείο [Postman](https://www.postman.com). Credentials:
     * API SERVER : https://go.s1cloud.net
     * s1code Header : 10502479681120
     * token = 9J8pIbTHLLLI9JT4TLLoHKLIL4rtLrHvHLXQKNHJLK4
