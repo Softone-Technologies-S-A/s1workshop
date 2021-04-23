@@ -11,7 +11,7 @@
   * appId = 703
 Όταν εκτελέσετε request client-side θα πάρετε μήνυμα σφάλματος από τον browser για CORS Policy (ο Postman είναι server side και δεν έχει πρόβλημα). Για να το αποφύγουμε αυτό ανοίχτε το [CORS proxy](https://cors-anywhere.herokuapp.com) και πατήστε "Request temporary access to the demo server". Έπειτα σε κάθε request που εκτελείτε από τον κώδικα θα βάζετε μπροστά στο url "https://cors-anywhere.herokuapp.com"
 >https://cors-anywhere.herokuapp.com/https://go.s1cloud.net/s1services/list/item
-3. To project περιέχει ήδη 4 αρχεία: 
+2. To project περιέχει ήδη 4 αρχεία: 
   * index.html 
   * styles.css 
   * controller.js
