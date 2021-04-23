@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF8">
+    <title>S1 Workshop</title>
+    <script src="js/controller.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="getAllItems()">
+    <div id="cashier">
+        <div id="document">
+            <div id="header">
+                <input readonly type="text" name="sum" id="sum">
+            </div>
+            <table id="lines">
+                <!--tr class="line">
+                    <td class="line-cell-alphabetic">'Ονομα Είδους</td><td class="line-cell-numeric">Τιμή Είδους</td><td class="line-cell-numeric">ΦΠΑ Είδους</td>
+                </tr-->
+            </table>
+            <div id="toolbar">
+                <button id="cancelBtn" class="toolbar-button" onclick="onCancelClick()">Cancel</button>
+                <button id="payBtn" class="toolbar-button" onclick="onPayClick()">Pay</button>
+            </div>
+        </div>
+        <div id="browser">
+            <!--div class="item">
+                <span class="item-label">Κωδικός Είδους Όνομα Είδους</span>
+            </div-->
+        </div>
+    </div>
+</body>
+
+</html>
